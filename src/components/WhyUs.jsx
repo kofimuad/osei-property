@@ -31,6 +31,7 @@ export default function WhyUs() {
 
   return (
     <section
+      className="why-section"
       style={{
         position: 'relative',
         background: 'var(--navy)',
@@ -55,8 +56,8 @@ export default function WhyUs() {
         pointerEvents: 'none',
       }} />
 
-      <div ref={ref} style={{ maxWidth: 1280, margin: '0 auto', padding: '0 64px', position: 'relative', zIndex: 1 }}>
-        <div style={{
+      <div ref={ref} className="why-container" style={{ maxWidth: 1280, margin: '0 auto', padding: '0 64px', position: 'relative', zIndex: 1 }}>
+        <div className="why-grid" style={{
           display: 'grid',
           gridTemplateColumns: '1fr 1fr',
           gap: 80,
@@ -145,7 +146,7 @@ export default function WhyUs() {
           </div>
 
           {/* Right: Reasons grid */}
-          <div style={{
+          <div className="why-reasons" style={{
             display: 'grid',
             gridTemplateColumns: '1fr 1fr',
             gap: 2,
@@ -213,12 +214,20 @@ export default function WhyUs() {
 
       <style>{`
         @media (max-width: 900px) {
-          section > div[style*="grid-template-columns: 1fr 1fr"] {
+          .why-section { padding: 80px 0 !important; }
+          .why-container { padding: 0 24px !important; }
+          .why-grid {
             grid-template-columns: 1fr !important;
             gap: 48px !important;
           }
-          section { padding: 80px 0 !important; }
-          section > div { padding: 0 24px !important; }
+          .why-reasons {
+            grid-template-columns: 1fr 1fr !important;
+          }
+        }
+        @media (max-width: 520px) {
+          .why-reasons {
+            grid-template-columns: 1fr !important;
+          }
         }
       `}</style>
     </section>

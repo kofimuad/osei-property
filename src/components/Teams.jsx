@@ -8,7 +8,7 @@ const teams = [
     icon: Star,
     name: 'Team of Valuers',
     role: 'Property Valuation Specialists',
-    image: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1573164574511-73c773193279?w=800&q=80',
     description:
       'Our certified valuers determine the fair and accurate market value of any property at any given point in time. Valuation reports presented by this team help clients make informed financial, legal, and investment decisions.',
     expertise: ['Market Value Assessments', 'Financial Reporting', 'Legal Valuation', 'Insurance Valuations', 'Investment Appraisals'],
@@ -17,7 +17,7 @@ const teams = [
     icon: Ruler,
     name: 'Team of Land Surveyors',
     role: 'Boundary & Topographic Experts',
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1740825961434-e9287638592b?w=800&q=80',
     description:
       'Our land surveyors determine and document property boundaries, topography — including land features and elevations — and other site details using fieldwork, historical research, legal records, and advanced technology. We ensure accurate descriptions that prevent disputes and support safe, legal development.',
     expertise: ['Boundary Determination', 'Topographic Surveys', 'Site Documentation', 'Historical Research', 'Dispute Prevention'],
@@ -26,7 +26,7 @@ const teams = [
     icon: Calculator,
     name: 'Team of Quantity Surveyors',
     role: 'Cost & Contract Management',
-    image: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1776597172706-08d4ef926a56?w=800&q=80',
     description:
       'This team controls the financial and contractual aspects of construction projects — from initial feasibility through to completion and final account settlement. They provide accurate cost information, minimize financial risks, and help balance quality, cost, and timelines. We serve developers, property owners, and contractors.',
     expertise: ['Feasibility Studies', 'Cost Planning', 'Contract Administration', 'Risk Management', 'Final Account Settlement'],

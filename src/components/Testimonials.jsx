@@ -44,14 +44,15 @@ export default function Testimonials() {
       {/* Testimonials */}
       <section
         ref={ref}
+        className="testimonials-section"
         style={{
           background: 'var(--cream)',
           padding: '120px 0',
           overflow: 'hidden',
         }}
       >
-        <div style={{ maxWidth: 1280, margin: '0 auto', padding: '0 64px' }}>
-          <div style={{
+        <div className="testimonials-container" style={{ maxWidth: 1280, margin: '0 auto', padding: '0 64px' }}>
+          <div className="testimonials-grid" style={{
             display: 'grid',
             gridTemplateColumns: '1fr 1.6fr',
             gap: 80,
@@ -226,18 +227,18 @@ export default function Testimonials() {
 
         <style>{`
           @media (max-width: 900px) {
-            section > div[style*="grid-template-columns: 1fr 1.6fr"] {
+            .testimonials-section { padding: 80px 0 !important; }
+            .testimonials-container { padding: 0 24px !important; }
+            .testimonials-grid {
               grid-template-columns: 1fr !important;
               gap: 48px !important;
             }
-            section > div { padding: 0 24px !important; }
-            section { padding: 80px 0 !important; }
           }
         `}</style>
       </section>
 
       {/* CTA Banner */}
-      <section style={{
+      <section className="cta-banner" style={{
         background: 'var(--gold)',
         padding: '72px 64px',
         display: 'flex',
@@ -317,7 +318,7 @@ export default function Testimonials() {
 
         <style>{`
           @media (max-width: 768px) {
-            section[style*="background: var(--gold)"] {
+            .cta-banner {
               padding: 48px 24px !important;
               flex-direction: column !important;
             }

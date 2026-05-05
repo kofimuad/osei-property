@@ -146,7 +146,7 @@ export default function About() {
                   }}
                 />
                 <img
-                  src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=600&q=80"
+                  src="https://images.unsplash.com/photo-1637932133484-457cf7b15807?w=600&q=80"
                   alt="Ghana Property"
                   style={{
                     width: '55%',
