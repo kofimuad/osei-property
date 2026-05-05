@@ -66,9 +66,9 @@ export default function Footer() {
             {/* Socials */}
             <div style={{ display: 'flex', gap: 12 }}>
               {[Share2, MessageCircle, Globe, Link].map((Icon, i) => (
-                <a
+                <button
                   key={i}
-                  href="#"
+                  type="button"
                   style={{
                     width: 36,
                     height: 36,
@@ -76,8 +76,9 @@ export default function Footer() {
                     alignItems: 'center',
                     justifyContent: 'center',
                     border: '1px solid rgba(255,255,255,0.1)',
+                    background: 'transparent',
                     color: 'rgba(255,255,255,0.4)',
-                    textDecoration: 'none',
+                    cursor: 'pointer',
                     transition: 'all 0.3s',
                   }}
                   onMouseEnter={e => {
@@ -92,7 +93,7 @@ export default function Footer() {
                   }}
                 >
                   <Icon size={15} />
-                </a>
+                </button>
               ))}
             </div>
           </div>

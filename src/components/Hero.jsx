@@ -1,6 +1,5 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowDown, Building2, MapPin } from 'lucide-react';
 
 const slides = [
   {
