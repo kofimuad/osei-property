@@ -126,7 +126,7 @@ export default function Navbar() {
 
         {/* CTA */}
         <a
-          href="tel:+233000000000"
+          href="tel:+233555026299"
           style={{
             display: 'flex',
             alignItems: 'center',

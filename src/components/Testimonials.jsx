@@ -292,7 +292,7 @@ export default function Testimonials() {
             Get Free Consultation
           </a>
           <a
-            href="tel:+233000000000"
+            href="tel:+233555026299"
             style={{
               display: 'inline-flex',
               alignItems: 'center',

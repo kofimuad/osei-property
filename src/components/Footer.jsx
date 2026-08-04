@@ -188,9 +188,10 @@ export default function Footer() {
             </h4>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 18 }}>
               {[
-                { icon: Phone, text: '+233 (0) 00 000 0000', href: 'tel:+233000000000' },
-                { icon: Mail, text: 'info@oseiproperty.com', href: 'mailto:info@oseiproperty.com' },
-                { icon: MapPin, text: 'Accra / Kumasi, Ghana', href: '#' },
+                { icon: Phone, text: '0555 026 299', href: 'tel:+233555026299' },
+                { icon: Phone, text: '026 352 2969', href: 'tel:+233263522969' },
+                { icon: Mail, text: 'Oseipropertysolutions@gmail.com', href: 'mailto:Oseipropertysolutions@gmail.com' },
+                { icon: MapPin, text: 'Accra / Kumasi / Duayaw Nkwanta / Sunyani / Goaso, Ghana', href: '#' },
               ].map((c, i) => {
                 const Icon = c.icon;
                 return (

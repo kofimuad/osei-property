@@ -146,9 +146,9 @@ export default function Contact() {
 
             {/* Contact details */}
             {[
-              { icon: Phone, label: 'Call Us', value: '+233 (0) 00 000 0000', href: 'tel:+233000000000' },
-              { icon: Mail, label: 'Email Us', value: 'info@oseiproperty.com', href: 'mailto:info@oseiproperty.com' },
-              { icon: MapPin, label: 'Our Location', value: 'Accra / Kumasi, Ghana', href: '#' },
+              { icon: Phone, label: 'Call Us', value: '0555 026 299 / 026 352 2969', href: 'tel:+233555026299' },
+              { icon: Mail, label: 'Email Us', value: 'Oseipropertysolutions@gmail.com', href: 'mailto:Oseipropertysolutions@gmail.com' },
+              { icon: MapPin, label: 'Our Location', value: 'Accra / Kumasi / Duayaw Nkwanta / Sunyani / Goaso, Ghana', href: '#' },
             ].map((c, i) => {
               const Icon = c.icon;
               return (

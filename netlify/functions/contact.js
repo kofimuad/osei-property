@@ -22,7 +22,7 @@ exports.handler = async function (event, context) {
   // Set these as Netlify environment variables in your site dashboard:
   //   EMAIL_USER  → your Gmail or SMTP username
   //   EMAIL_PASS  → your app password (Gmail: enable 2FA, generate App Password)
-  //   EMAIL_TO    → where enquiries land (e.g. info@oseiproperty.com)
+  //   EMAIL_TO    → where enquiries land (e.g. Oseipropertysolutions@gmail.com)
   // ─────────────────────────────────────────────────────────────────────────────
 
   const transporter = nodemailer.createTransport({
